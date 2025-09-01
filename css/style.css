@@ -46,8 +46,8 @@ nav {
 
 /* Header Logo Styling - Fixed sizing and positioning */
 .header-logo {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 50px;
     object-fit: contain;
     flex-shrink: 0;
     border-radius: 50%;
@@ -252,7 +252,15 @@ nav {
     }
     
     .nav-links {
-        display: none;
+        display: flex;   /* keep it visible */
+        flex-direction: column; /* stack links vertically if you want */
+        gap: 1rem;
+        background: rgba(0,0,0,0.5); 
+        padding: 1rem;
+        border-radius: 10px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
     }
     
     .features-grid {
