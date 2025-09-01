@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="interactive-element" id="cursor-follower"></div>
+    
+    <header>
+        <nav class="container">
+            <div class="logo">วิชาการใช้ PLATFORM ประยุกต์</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Welcome to the Future</h1>
+                <p>Experience modern web design with stunning animations and interactive elements</p>
+                <a href="#features" class="cta-button">Explore Features</a>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2>Amazing Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card" onclick="animateCard(this)">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Optimized performance for the best user experience with cutting-edge technology.</p>
+                    </div>
+                    <div class="feature-card" onclick="animateCard(this)">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Beautiful Design</h3>
+                        <p>Stunning visuals and smooth animations that captivate and engage your audience.</p>
+                    </div>
+                    <div class="feature-card" onclick="animateCard(this)">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Perfect on all devices - from mobile phones to large desktop screens.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
